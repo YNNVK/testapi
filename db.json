@@ -2,17 +2,31 @@
   "posts": [
     {
       "id": 1,
-      "title": "Post 1"
+      "name": "Yann"
+      "username" : "Virapin"
     },
     {
       "id": 2,
-      "name": "Yann"
-      "username" : "lamou4"
-      "email":"Sincere@april.biz"
+      "title": "Post 2"
     },
     {
       "id": 3,
       "title": "Post 3"
     }
-  ]
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
